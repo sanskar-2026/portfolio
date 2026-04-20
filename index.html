@@ -1,115 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sanskar | Biotechnology Portfolio</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sanskar | Biotech Portfolio</title>
 
-    <link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="styles.css">
 
-    <!-- Icons -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-
-    <!-- AOS Animation -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 
 <body>
 
-<!-- Navbar -->
-<header>
-    <nav class="navbar">
-        <h2 class="logo">Sanskar</h2>
-        <ul>
-            <li><a href="#about">About</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
+<header class="navbar">
+    <h2 class="logo">Sanskar</h2>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
     </nav>
 </header>
 
-<!-- Hero Section -->
 <section class="hero">
-    <div class="hero-content">
-        <h1>Hi, I'm Sanskar</h1>
-        <p>Biotechnology Student | Genomics | Machine Learning | Cell Culture</p>
-        <button onclick="scrollToSection('contact')">Contact Me</button>
+    <div class="hero-text">
+        <h1>Biotechnology Meets Intelligence</h1>
+        <h2>Hi, I'm Sanskar</h2>
+        <p>Genomics • Machine Learning • Cell Culture • Data Science</p>
+        <button onclick="scrollToSection('projects')">View My Work</button>
     </div>
 </section>
 
-<!-- About -->
-<section id="about" data-aos="fade-up">
+<section id="about" class="glass">
     <h2>About Me</h2>
     <p>
-        Passionate Biotechnology student specializing in genomics, tissue culture, 
-        and computational biology. Skilled in integrating machine learning with biological data 
-        to derive meaningful insights. Strong leadership, time management, and analytical mindset.
+        Biotechnology student passionate about genomics, computational biology,
+        and lab-based innovations. I combine machine learning with biological systems
+        to solve real-world problems in healthcare and research.
     </p>
 </section>
 
-<!-- Skills -->
 <section id="skills">
-    <h2>Core Biotechnology Skills</h2>
-    <div class="skills-grid">
+    <h2>Core Expertise</h2>
+    <div class="skills">
 
-        <div class="skill-card" data-aos="zoom-in">
+        <div class="card">
             <i class="fas fa-dna"></i>
-            <h3>Genomics & Bioinformatics</h3>
-            <p>NGS data analysis, sequence alignment, genome annotation</p>
+            <h3>Genomics</h3>
+            <p>NGS Analysis, Genome Mapping, Variant Detection</p>
         </div>
 
-        <div class="skill-card" data-aos="zoom-in">
+        <div class="card">
             <i class="fas fa-microscope"></i>
-            <h3>Cell & Tissue Culture</h3>
-            <p>In vitro culture, sterile techniques, cell line maintenance</p>
+            <h3>Cell Culture</h3>
+            <p>In-vitro Techniques, Sterile Handling</p>
         </div>
 
-        <div class="skill-card" data-aos="zoom-in">
+        <div class="card">
             <i class="fas fa-brain"></i>
             <h3>Machine Learning</h3>
-            <p>Predictive modeling, biological datasets, AI in healthcare</p>
+            <p>Predictive Models, Bio-data Analysis</p>
         </div>
 
-        <div class="skill-card" data-aos="zoom-in">
+        <div class="card">
             <i class="fas fa-chart-line"></i>
             <h3>Data Visualization</h3>
-            <p>Python, graphs, dashboards, scientific storytelling</p>
-        </div>
-
-        <div class="skill-card" data-aos="zoom-in">
-            <i class="fas fa-flask"></i>
-            <h3>Molecular Biology</h3>
-            <p>PCR, gel electrophoresis, cloning techniques</p>
-        </div>
-
-        <div class="skill-card" data-aos="zoom-in">
-            <i class="fas fa-users"></i>
-            <h3>Leadership</h3>
-            <p>Team management, project leadership, time optimization</p>
+            <p>Python, Dashboards, Scientific Graphs</p>
         </div>
 
     </div>
 </section>
 
-<!-- Projects -->
-<section id="projects">
+<section id="projects" class="glass">
     <h2>Projects</h2>
-    <div class="project-card" data-aos="fade-up">
-        <h3>Genomic Data Analysis</h3>
-        <p>Machine learning model for analyzing genomic sequences and predicting mutations.</p>
+
+    <div class="project">
+        <h3>Genomic Mutation Predictor</h3>
+        <p>ML model predicting mutations from DNA sequences.</p>
     </div>
 
-    <div class="project-card" data-aos="fade-up">
-        <h3>Cell Culture Optimization</h3>
-        <p>Improved growth efficiency using controlled environmental conditions.</p>
+    <div class="project">
+        <h3>Cell Growth Optimization</h3>
+        <p>Enhanced lab conditions for maximum cell yield.</p>
     </div>
+
 </section>
 
-<!-- Contact -->
 <section id="contact">
     <h2>Contact</h2>
-    <p>Email: sanskar@email.com</p>
+    <p>Email: your@email.com</p>
 </section>
 
 <footer>
@@ -117,6 +96,5 @@
 </footer>
 
 <script src="script.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
 </body>
 </html>
